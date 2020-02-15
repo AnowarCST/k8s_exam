@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  hellophp:
+    image: ${DOCKER_REGISTRY}/aks-helloworldphp:${VERSION:-dev}
+    build:
+      context: .
+      dockerfile: Services/hello-php/Dockerfile
+    ports:
+        - "80:80"
