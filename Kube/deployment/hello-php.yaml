@@ -74,9 +74,9 @@ metadata:
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
 spec:
  tls:
- - hosts:
+  - hosts:
     - anowar.eastus.cloudapp.azure.com
-   secretName: anowar-eastus-cloudapp-azure-com-staging
+  secretName: anowar-eastus-cloudapp-azure-com-staging
   rules:
   - host: anowar.eastus.cloudapp.azure.com
     http:
