@@ -1,7 +1,7 @@
 apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
-  namespace: ingress-basic
+  namespace: app-dev
   name: anowar-eastus-cloudapp-azure-com-cert-staging
 spec:
   secretName: anowar-eastus-cloudapp-azure-com-staging

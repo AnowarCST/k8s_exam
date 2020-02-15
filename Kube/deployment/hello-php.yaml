@@ -75,7 +75,7 @@ metadata:
 spec:  
   tls:
   - hosts:
-    - app-staging.informatiq.no
+    - anowar.eastus.cloudapp.azure.com
     secretName: anowar-eastus-cloudapp-azure-com-staging
   rules:    
   - host: anowar.eastus.cloudapp.azure.com
