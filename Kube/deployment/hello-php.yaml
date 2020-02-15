@@ -72,12 +72,12 @@ metadata:
     nginx.org/server-snippets: "gzip on;"
     cert-manager.io/cluster-issuer: letsencrypt-staging
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
-spec:
- tls:
- - hosts:
-    - anowar.eastus.cloudapp.azure.com
-  secretName: anowar-eastus-cloudapp-azure-com-staging
-  rules:
+spec:  
+  tls:
+  - hosts:
+    - app-staging.informatiq.no
+    secretName: anowar-eastus-cloudapp-azure-com-staging
+  rules:    
   - host: anowar.eastus.cloudapp.azure.com
     http:
       paths:
